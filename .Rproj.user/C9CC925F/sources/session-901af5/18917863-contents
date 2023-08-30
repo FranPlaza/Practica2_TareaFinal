@@ -1,0 +1,59 @@
+---
+title: "Tarea Final del curso"
+author: "Fran Plaza Vega"
+format: pdf
+editor: visual
+---
+
+## Quarto
+
+::: justify
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>. blablagjdjktrh kdsfjsdkjgfha nt. To learn more about Quarto see <https://quarto.org>. blablagjdjktrh kdsfjsdkjgfha
+:::
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+#| echo: false
+#| include: true
+#| eval: true
+#| warning: false
+#| file: code_1.R
+```
+
+```{r}
+#| echo: false
+#| include: true
+#| eval: true
+#| warning: false
+y = rnorm(100, 3, 1)
+x = 3+5
+print(y)
+
+```
+
+```{r, fig.width=unit(10, "cm"), fig.height=unit(10, "cm")}
+#| label: fig-hist_y
+#| out-width: 40%
+#| fig-cap: "Histograma de variable $y$."
+#| warning: false
+#| echo: false
+library(tidyverse)
+library(ggplot2)
+hist(y)
+```
