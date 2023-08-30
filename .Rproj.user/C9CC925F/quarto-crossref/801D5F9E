@@ -1,1 +1,1 @@
-{"entries":[{"key":"fig-logo","order":{"section":[0,2,0,0,0,0,0],"number":2},"caption":"Figura logo del IFOP"},{"key":"fig-hist_y","order":{"section":[0,2,0,0,0,0,0],"number":1},"caption":"Histograma de variable y."}],"headings":["quarto","running-code"]}
+{"entries":[{"caption":"Figura logo del IFOP","order":{"section":[0,2,0,0,0,0,0],"number":2},"key":"fig-logo"},{"caption":"Histograma de variable y.","order":{"section":[0,2,0,0,0,0,0],"number":1},"key":"fig-hist_y"}],"headings":["quarto","running-code"]}
