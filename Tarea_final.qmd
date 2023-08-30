@@ -8,7 +8,7 @@ lang: es
 
 ## Quarto
 
-Prueba con añadir tildes y cosas artículos,
+Prueba con añadir tildes y cosas artículos, voy a añadir más texto
 
 ::: justify
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>. blablagjdjktrh kdsfjsdkjgfha nt. To learn more about Quarto see <https://quarto.org>. blablagjdjktrh kdsfjsdkjgfha
@@ -52,8 +52,6 @@ print(y)
 
 ```
 
-
-
 Los resultados pueden verse en la @fig-hist_y. Bla blabla
 
 ```{r, fig.width=unit(10, "cm"), fig.height=unit(10, "cm")}
@@ -64,7 +62,6 @@ Los resultados pueden verse en la @fig-hist_y. Bla blabla
 #| echo: false
 hist(y)
 ```
-
 
 Nosotros trabajamos en el IFOP (@fig-logo)
 
